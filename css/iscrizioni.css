@@ -1,0 +1,112 @@
+
+/* importo custom.css generato da sass */
+@import "custom.css";
+
+
+/*regole temporanee di sviluppo*/
+
+.required {
+	color:red;
+	font-weight: normal;
+	font-size:1.2em;
+	padding-left: .5rem;
+}
+.form-step {
+	margin-top: 3rem;
+}
+
+[v-cloak] {
+  display: none;
+}
+
+#spinner {
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	position: fixed;
+	display: block;
+	opacity: 0.8;
+	background-color: #FFF;
+	z-index: 99;
+	text-align: center;
+	background-repeat: no-repeat;
+	background-position: 50% 20%;
+	background-image: url("../im/caricamento.gif");
+}
+
+.item-list-tab-step>ul>li.past>span:after,
+.item-list-tab-step>ul>li>ul>li.past {
+	cursor:pointer;
+}
+.item-list-tab-step>ul>li.past.disable>span:after,
+.item-list-tab-step>ul>li>ul>li.past.disable {
+	pointer-events: none;
+	opacity: 0.5;
+	cursor:default;
+}
+.btn.item {
+	padding-right: calc(2 * .3rem) !important;
+	padding-left: calc(2 * .3rem) !important;
+	/* border-radius: 5px !important; */
+	font-size: 1.5rem !important;
+	margin-bottom: 0 !important;
+  margin-top: .5rem !important;
+}
+.card {
+	min-height: 1rem;
+}
+.invalid-feedback {
+	display:block;
+}
+.alert-user {
+	background-color: #CCE5FF;
+	border-color: #B8DAFF;
+}
+.dg-backdrop {
+	background-color: #6c757db3;
+}
+.dg-main-content {
+	max-width: max-content;
+  min-width: 30%;
+}
+.dg-main-content, .dg-btn {
+	border-radius: 0;
+}
+.dg-title {
+	font-weight: bold;
+}
+
+body .border-bottom {
+  border-bottom: 1px solid #343a40 !important;
+}
+
+.list-link-nidi.ammesso {
+	border-top: 6px dashed #005ca9;
+	border-bottom: 6px dashed #005ca9;
+	box-shadow: 0px 0px 10px 1px #999;
+	z-index: 1000;
+}
+
+.box-nav p.type-registration.scuola-infanzia {
+    background-image: url(../im/iscr_scuola_black.png);
+}
+
+body .txt-consenso {
+	margin-bottom: 0 !important;
+}
+
+.CAN {
+	background-color: #F1DDDE;
+	display: inline-block !important;
+	font-weight: 400 !important;
+	padding-right: 6rem !important;
+	padding-left: 1rem !important;
+	margin-bottom: 0 !important;
+}
+
+.badge-scuola {
+	color: #212529;
+	background-color: #f8f9fa;
+	border: 1px solid #000000;
+}
