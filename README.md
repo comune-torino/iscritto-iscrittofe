@@ -2,7 +2,7 @@
 ISCRITTO-ISCRITTOFE
 
 # Project Description
-Questa componente espone il modulo front-end per l'iscrizione ai nidi e materne. La componente è sviluppata con Vue.js ed utilizza i servizi esposti da iscrittofosrv.
+Questa componente espone il modulo front-end per l'iscrizione ai nidi/scuole dell'infanzia. La componente è sviluppata con Vue.js ed utilizza i servizi esposti da iscrittofosrv.
 
 # Configurations
 Aprire il file proxy/config.php e configurare i seguenti parametri:
